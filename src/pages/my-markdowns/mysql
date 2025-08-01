@@ -1,0 +1,24 @@
+
+
+
+Installation and Setup Guide
+Installation
+Install MySQL by running the following command:
+brew install mysql
+Managing Service
+Start the MySQL service:
+brew services start mysql
+Stop the MySQL service:
+brew services stop mysql
+Restart the MySQL service:
+brew services restart mysql
+Running
+To run MySQL as the root user, use:
+mysql -u root
+If you do not need a background service and prefer running it manually, execute:
+/opt/homebrew/opt/mysql/bin/mysqld_safe --datadir=/opt/homebrew/var/mysql
+Security
+By default, MySQL is installed without a root password. To improve security, execute:
+mysql_secure_installation
+To run MySQL with password, use:
+mysql -u root -p

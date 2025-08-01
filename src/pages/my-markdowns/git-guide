@@ -1,0 +1,33 @@
+
+
+Cheat Sheet
+This guide provides basic Git commands to manage your repository effectively.
+Check Version:
+To verify the installed Git version, use:
+git --version
+Check Status:
+See the status of your working directory and staging area with:
+git status
+Initialize a Repository:
+Create a new Git repository in your current directory by running:
+git init
+Stage Changes:
+Add specific files to the staging area:
+git add [filename]
+Or, add all changes in the directory:
+git add .
+Commit Changes:
+Save staged changes with a descriptive message:
+git commit -m "[commit name]"
+List Branches:
+See all branches, including remote branches:
+git branch -a
+Create a New Branch:
+To create a new branch called newBranch, use:
+git branch [newBranch]
+Switch Branches:
+Change to the main branch:
+git checkout main
+Or, switch to the new branch:
+git checkout [newBranch]
+These commands cover basic operations for version control with Git.

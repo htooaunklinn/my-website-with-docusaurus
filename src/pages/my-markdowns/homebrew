@@ -1,0 +1,19 @@
+Home Brew
+Install
+Offical Website Link.
+Command Guide
+Checking
+brew --version  or brew -v: Check package. 
+Homebrew 4.5.5 : And then output.
+Listing Commands
+brew list: Displays all installed Homebrew packages.
+brew services list: Shows all services managed via Homebrew.
+Script Explanation
+brew list > brew.txt: Saves the list of installed formulas to brew.txt.
+while read formula; do brew install "$formula"; done < brews.txt: Installs each formula listed in brews.txt using
+Downloads
+brew install cmatrix
+brew install htop
+brew install hollywood
+brew install git
+brew install sqlite3

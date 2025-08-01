@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Welcome to @htooaunklinn',
+  tagline: 'Comming soon...',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -81,10 +81,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '@htooaunklinn',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo2.svg',
         },
         items: [
           {
@@ -94,11 +94,11 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -116,17 +116,41 @@ const config = {
           {
             title: 'Community',
             items: [
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
+              // {
+              //   label: 'X',
+              //   href: 'https://x.com/docusaurus',
+              // },
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: '#',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'YouTube',
+                href: '#',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: '#',
+              },
+              {
+                label: 'Instagram',
+                href: '#',
+              },
+              {
+                label: 'LinkedIn',
+                href: '#',
+              },
+              {
+                label: 'TikTok',
+                href: '#',
               },
             ],
           },
@@ -139,12 +163,16 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/htooaunklinn',
+              },
+              {
+                label: 'Contact',
+                href: '#',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} @htooaunklinn.`,
       },
       prism: {
         theme: prismThemes.github,

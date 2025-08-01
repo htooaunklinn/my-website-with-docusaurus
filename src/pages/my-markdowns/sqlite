@@ -1,0 +1,13 @@
+
+
+Workflow
+Access the database:
+sqlite3 [database_name.db]
+List all tables:
+.tables
+Exit SQLite:
+.exit
+View table schema:
+.schema [table_name]
+Check table details:
+PRAGMA table_info([table_name]);

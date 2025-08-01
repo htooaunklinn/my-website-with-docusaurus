@@ -4,7 +4,8 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    // title: 'Easy to Use',
+    title: 'Comming soon...',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -14,7 +15,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    // title: 'Focus on What Matters',
+    title: 'Comming soon...',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -24,7 +26,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    // title: 'Powered by React',
+    title: 'Comming soon...',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
