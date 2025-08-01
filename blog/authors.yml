@@ -1,3 +1,18 @@
+htooaunklinn:
+  name: Htoo Aunk Linn
+  title: Developer
+  url: https://htooaunklinn.com
+  image_url: https://github.com/htooaunklinn.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-htooaunklinn-articles'
+  socials:
+    youtube: https://www.youtube.com/@htooaunklinn
+    x: htooaunklinn
+    instagram: https://www.instagram.com/htooaunklinn
+    linkedin: htooaunklinn
+    github: htooaunklinn
+    
 yangshun:
   name: Yangshun Tay
   title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd

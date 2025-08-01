@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to @htooaunklinn',
-  tagline: 'Comming soon...',
+  title: '@htooaunklinn',
+  tagline: 'Hello Friend!',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -82,10 +82,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '@htooaunklinn',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo2.svg',
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'docSidebar',
@@ -95,7 +95,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           // {
-          //   href: 'https://github.com/facebook/docusaurus',
+          //   href: 'https://github.com/htooaunklinn',
           //   label: 'GitHub',
           //   position: 'right',
           // },
@@ -167,7 +167,7 @@ const config = {
               },
               {
                 label: 'Contact',
-                href: '#',
+                href: '/blog/my-blog-post',
               },
             ],
           },
